@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon-16x16.png" type="image/x-icon">
+    <title>Alma de Jengibre</title>
+</head>
+<style>
+    button {
+    background-color:blue;
+    border-color:red;
+    color:white;
+    }
+    h1{
+        text-align: center;
+    }
+    IMG{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+    }
+    body{
+        background-image: url("./assets/img/tower-6521842.jpg");
+        background-repeat: no-repeat;
+    }
+    body{
+        color: white;
+    }
+    h1{
+        color: white;
+    }
+</style>
+<a href="./Alma de Jengibre.html">
+    <input type="button" value="Regresar al Menu" style="background-color:#ffffff00">
+</a>
+
+
+    <img src="./assets/img/Alma de Jengibre.png" alt="Logo - ALMA DE JENGIBRE" width="250 px">
+    <h1>Bienvenido al Area de pedidos "Alma de Jengibre" </h1>
+
+    <a href="./Alma de Jengibre.html">
+        
+    </a>
+
+    <h3>"Datos para realizar el pedido"</h3>
+    <form action="/accion.js" id="form1" method="post"> 
+        <label for="Nombre"> Ingresa tu Nombre</label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Juan Perez" required>
+
+        <br><br>
+
+        <label for="text">"Ingresa tu correo electronico"</label><br>
+        <input type="text" name="correo" id="correo" placeholder="juanperez1234@gmail.com">
+
+
+        <br><br>
+        
+        <label for="cliente">Ingresa tu número de telefono:</label><br>
+        <input type="number" name="cliente" id="cliente" placeholder="4481216366">
+
+        <p>¿Servicio a domicilio o usted se hace responsable?</p>
+        <input type="radio" id="Aqui" name="Aquioaparta" value="Aqui">
+        <label for="Aqui">Servicio a domicilio</label><br>
+        <input type="radio" id="apartar" name="Apartaoaqui" value="Aparta">
+        <label for="Aparta">Me hago responsable</label><br>
+
+        <h3>"Datos del pastel que desea"</h3>
+
+        <p>¿De que tamaño sera tu pastel?</p>
+        <input type="radio" id="pequeño" name="pastelpequeño" value="Pequeño">
+        <label for="Pequeño">Pastel Pequeño</label><br>
+        <input type="radio" id="mediano" name="pastelmediano" value="Mediano">
+        <label for="Mediano">Pastel Mediano</label><br>
+        <input type="radio" id="grande" name="pastelgrande" value="Grande">
+        <label for="Grande">Pastel Grande</label><br>
+        <input type="radio" id="personalizado" name="personalizado" value="Personalizado">
+        <label for="Personnalizado">Pastel Peronsalizado</label><br>
+
+        <p>¿De que sabor seria tu pastel?</p>
+        <input type="checkbox" name="moka" id="moka" value="Moka">
+        <label for="moka">Moka</label>
+        <input type="number" id="mokaCuantos" name="mokaCuantos" placeholder="¿Cuantos?"><br>
+        <input type="checkbox" name="cajeta" id="cajeta" value="Cajeta">
+        <label for="cajeta">Cajeta</label>
+        <input type="number" id="cajetaCuantos" name="cajetaCuantos" placeholder="¿Cuantos?"><br>
+        <input type="checkbox" name="vainilla" id="vainilla" value="Vainilla">
+        <label for="vainilla">Vainilla</label>
+        <input type="number" id="vainillaCuantos" name="vainillaCuantos" placeholder="¿Cuantos?"><br>
+        <input type="checkbox" name="chocolate" id="chcocolate" value="Choclolate">
+        <label for="cheeesecake">Chocolate</label>
+        <input type="number" id="chocolate" name="chocolateCuantos" placeholder="¿Cuantos?"><br>
+        <input type="checkbox" name="TresLeches" id="TresLeches" value="Tres Leches">
+        <label for="TresLeches">Tres Leches</label>
+        <input type="number" id="TresLechesCuantos" name="TresLechesCuantos" placeholder="¿Cuantos?"><br>
+        <input type="checkbox" name="flan" id="flan" value="Flan">
+        <label for="flan">Flan</label>
+        <input type="number" id="flanCuantos" name="flanCuantos" placeholder="¿Cuantos?"><br>
+        <input type="checkbox" name="Durazno" id="Durazno" value="Durazno">
+        <label for="Durazno">Durazno</label>
+        <input type="number" id="DuraznoCuantos" name="DuraznoCuantos" placeholder="¿Cuantos?"><br>
+        <input type="checkbox" name="Fresasconcrema" id="Fresasconcrema" value="Fresas con crema">
+        <label for="Fresasconcrema">Fresas con crema</label>
+        <input type="number" id="FresasconcremaCuantos" name="FresasconcremaCuantos" placeholder="¿Cuantos?"><br>
+        <input type="checkbox" name="Chocolateconmenta" id="Chocolateconmenta" value="Chocolate con menta">
+        <label for="Chocolateconmenta">Chocolate con menta</label>
+        <input type="number" id="ChocolateconmentaCuantos" name="ChocolateconmentaCuantos" placeholder="¿Cuantos?"><br>
+        <input type="checkbox" name="Trufa" id="Trufa" value="Trufa">
+        <label for="Trufa">Trufa</label>
+        <input type="number" id="TrufaCuantos" name="TrufaCuantos" placeholder="¿Cuantos?"><br>
+        <input type="checkbox" name="QuesoconZarzamora" id="QuesoconZarzamora" value="Queso con Zarzamora">
+        <label for="Queso con Zarzamora">Queso con Zarzamora</label>
+        <input type="number" id="QuesoconZarzamoraCuantos" name="QuesoconZarzamora" placeholder="¿Cuantos?"><br>
+
+
+        <p>¿Deseas llevar alguna rebanada contigo?</p>
+        <select name="rebanada" id="rebanada">
+            <option value="Rebanadadepasteldevainilla"> "Rebanada de pastel de vainilla" </option>
+            <option value="Rebanadadepasteldechocolate"> "Rebanada de pastel de chocolate" </option>
+            <option value="RebanadadeFlan"> "Rebanada de Flan" </option>
+            
+        </select>
+        
+        <br><br>
+        <input style="background-color:#ffffff00" type="reset">
+        <input type="submit" style="background-color: #e8e8e800;">
+        <hr>
+      
+        <br><br>
+</body>
+</html>
